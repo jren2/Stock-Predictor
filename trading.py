@@ -91,6 +91,8 @@ def evaluateStock(ticker):
 def main():
     tickers = ['GOOG','TSLA','META','MSFT','AMZN','TSM','NVDA','ADBE','ORCL','CSCO','INTC','TXN']
 
+
+
     for ticker in tickers:
         evaluateStock(ticker)
 
